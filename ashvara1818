@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHVARA - Royal Brand</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 40px;
+            background: rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: gold;
+            text-shadow: 2px 2px 8px black;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: gold;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.5);
+        }
+        .button {
+            background: gold;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ASHVARA</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>ASHVARA is a symbol of royalty and strength. Inspired by the majestic power of the horse and timeless elegance.</p>
+        <a href="#products" class="button">Explore Now</a>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>We offer premium designs crafted for the modern royalty in you.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@ashvara.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 ASHVARA — All Rights Reserved</p>
+    </footer>
+</body>
+</html>
